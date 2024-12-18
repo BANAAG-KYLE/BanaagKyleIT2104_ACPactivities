@@ -131,7 +131,5 @@ Creates a system for handling array operations with comprehensive exception hand
 
 <div align="center">
   <p>Developed with ❤️ for CS 121 – Advanced Computer Programming</p>
-  <p>© 2024 FindIt. All rights reserved.</p>
+  <p>© 2024 ACP. All rights reserved.</p>
 </div>
-
----
