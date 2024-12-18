@@ -36,14 +36,19 @@ To establish a strong foundation in Python programming fundamentals by practicin
 **Code Summary:**  
 Develops a program that captures and displays musical information through structured user input. The program handles various data types including integers for release years and strings for artistic details, demonstrating fundamental input/output operations.
 
+**Instructions for Reviewers:**  
+- 🖋️ **Input valid album details**: Ensure that the information entered for the album is accurate and correctly formatted.  
+- ✅ **Verify output accuracy**: Confirm that the program displays the entered album details correctly.  
+- 🔍 **Test with various inputs**: Try different character inputs, including uppercase, lowercase, and special characters, to observe how the program handles them.  
+
 #### Item 2: Character Value Analyzer 📊  
 **Code Summary:**  
 Creates a system that evaluates and compares two character inputs using Python's built-in functions. Features optional ASCII value display functionality, showcasing string handling and numerical conversions.
 
 **Instructions for Reviewers:**  
-- 🖋️ **Input valid album details**: Ensure that the information entered for the album is accurate and correctly formatted.  
-- ✅ **Verify output accuracy**: Confirm that the program displays the entered album details correctly.  
-- 🔍 **Test with various inputs**: Try different character inputs, including uppercase, lowercase, and special characters, to observe how the program handles them.  
+- 🖋️ **Input valid characters**: Enter single characters to ensure accurate processing.  
+- ✅ **Check ASCII value display**: Verify that the program correctly displays the ASCII values of the entered characters.  
+- 🔍 **Test with edge cases**: Input non-alphabetic characters to assess the program's handling of such inputs.  
 
 ---
 
@@ -61,14 +66,20 @@ To deepen understanding of Python's control structures and algorithm implementat
 **Code Summary:**  
 Implements an algorithm to identify palindromic numbers through digit manipulation and comparison. The program processes integer inputs and determines if they read the same forwards and backwards.
 
+**Instructions for Reviewers:**  
+- 🖋️ **Enter valid numerical inputs**: Provide integers to test the palindrome detection.  
+- ✅ **Verify palindrome detection**: Ensure the program correctly identifies palindromic numbers.  
+- 🔍 **Test with large numbers**: Input large integers to evaluate the program's performance with big data. 
+
 #### Item 2: Dynamic Discount Calculator 💰  
 **Code Summary:**  
 Develops a sophisticated pricing system that calculates purchase discounts based on total amount. Features percentage-based calculations, decimal formatting, and an interactive retry mechanism for multiple calculations.
 
 **Instructions for Reviewers:**  
-- 🖋️ **Enter valid numerical values**: Provide appropriate numbers when prompted to ensure accurate calculations.  
-- ✅ **Check discount calculations**: Verify that the discount applied matches the specified criteria based on the input amount.  
-- 🔍 **Test limit conditions**: Validate the program using values at the discount boundaries to ensure accurate processing.  
+- 🖋️ **Input valid purchase amounts**: Enter numerical values representing purchase totals.  
+- ✅ **Check discount calculations**: Confirm that the program applies the correct discount based on the input amount.  
+- 🔍 **Test with boundary values**: Input amounts at the threshold of discount criteria to ensure correct application of discounts.  
+
 
 ---
 
@@ -86,14 +97,20 @@ To master Python's data structures and algorithmic problem-solving by:
 **Code Summary:**  
 Creates a system for converting Roman numerals to integers using dictionary mapping and string processing. Handles both standard and subtractive notation while maintaining proper validation rules.
 
+**Instructions for Reviewers:**  
+- 🖋️ **Input valid Roman numerals**: Ensure that the Roman numerals entered are correctly formatted and valid.  
+- ✅ **Confirm integer conversion accuracy**: Check that the program accurately converts Roman numerals to their integer equivalents.  
+- 🔍 **Test edge cases**: Enter both simple and complex Roman numerals to evaluate the program's reliability.
+
+
 #### Item 2: Perfect Number Validator ✨  
 **Code Summary:**  
 Implements an algorithm to identify perfect numbers through divisor calculation and summation. The program analyzes numerical properties and determines if a number's proper divisors sum equals the original number.
 
 **Instructions for Reviewers:**  
-- 🖋️ **Input valid Roman numerals**: Ensure that the Roman numerals entered are correctly formatted and valid.  
-- ✅ **Confirm integer conversion accuracy**: Check that the program accurately converts Roman numerals to their integer equivalents.  
-- 🔍 **Test edge cases**: Enter both simple and complex Roman numerals to evaluate the program's reliability.  
+- 🖋️ **Input valid integers**: Provide positive integers to test the perfect number validation.  
+- ✅ **Verify perfect number identification**: Ensure the program correctly identifies perfect numbers.  
+- 🔍 **Test with large numbers**: Input large integers to assess the program's performance with big data. 
 
 ---
 
@@ -113,14 +130,20 @@ To apply advanced Python programming concepts through:
 **Code Summary:**  
 Develops an object-oriented structure representing capybaras and their characteristics. Features proper class construction, attribute management, and type validation while demonstrating OOP principles.
 
+**Instructions for Reviewers:**  
+- 🖋️ **Create instances of the Capybara class**: Test the class by creating multiple instances with different attributes.  
+- ✅ **Verify method functionality**: Ensure that all methods within the `Capybara` class perform as expected.  
+- 🔍 **Test exception handling**: Intentionally cause errors (ex: file not found) to observe how the program manages exceptions.  
+
 #### Item 2: Array Exception Manager ⚠️  
 **Code Summary:**  
 Creates a system for handling array operations with comprehensive exception handling. Implements size-based array creation, element access validation, and formatted decimal output with proper error messaging.
 
 **Instructions for Reviewers:**  
-- 🖋️ **Create instances of the Capybara class**: Test the class by creating multiple instances with different attributes.  
-- ✅ **Verify method functionality**: Ensure that all methods within the `Capybara` class perform as expected.  
-- 🔍 **Test exception handling**: Intentionally cause errors (e.g., file not found) to observe how the program manages exceptions.  
+- 🖋️ **Input valid array sizes**: Provide integers representing array sizes to test the array creation.
+- ✅ **Check exception handling**: Ensure that the program appropriately handles exceptions.
+- 🔍 **Test with various data types**: Input arrays containing different data types (e.g., integers, strings) to verify the program's robustness in handling diverse data.
+
 
 ---
 
